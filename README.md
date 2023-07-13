@@ -13,6 +13,11 @@ FROM iolk/supercronic AS supercronic
 COPY --from=supercronic /usr/bin/supercronic /usr/bin/supercronic
 ```
 
+| Supercronic version | Tag | Supported archs|
+| --- | --- | --- |
+| v0.2.25 | latest | `i386`,`arm`,`arm64`,`amd64` |
+
+
 ### Build a different version
 ```
 git clone https://github.com/iolk/supercronic.git \
